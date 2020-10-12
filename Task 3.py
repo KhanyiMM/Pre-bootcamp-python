@@ -3,7 +3,6 @@ def sixty_five(x,y):
         return True
     else:
         return False
-
 print(sixty_five(65,3))
 print(sixty_five(60,5))
 print(sixty_five(20,3))

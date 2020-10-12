@@ -6,7 +6,7 @@ def cel_convert(x):
 print(cel_convert(10))
 
 # fahrenheit to celsuis
-def fah_convert(z):
+def fah_convert(y):
     fahrenheit = float(input('y: '))
     celsuis = (fahrenheit - 32) * 5/9
     return (celsuis)

@@ -1,10 +1,9 @@
 def three(x,y):
-    if x == 3 or y == 3:
+    total_sum = x + y
+    if '3' in str(total_sum):
         return True
-    elif (x + y).contains('3'):
+    elif x == 3 or y == 3:
         return True
     else:
         return False
-print(three(3,0))
-print(three(7,3))
-print(int(three(7,6)))
+print(three(7,8))
