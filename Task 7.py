@@ -1,13 +1,11 @@
 # celsuis to fahrenheit
-def cel_convert(x):
-    celsuis = float(input('x: '))
+def cel_convert(celsuis):
     fahrenheit = (celsuis * (9/5)) + 32
-    return (fahrenheit)
-print(cel_convert(10))
+    print (fahrenheit)
+cel_convert(25)
 
 # fahrenheit to celsuis
-def fah_convert(y):
-    fahrenheit = float(input('y: '))
+def fah_convert(fahrenheit):
     celsuis = (fahrenheit - 32) * 5/9
-    return (celsuis)
-print (fah_convert(9))
+    print (celsuis)
+fah_convert(42)
